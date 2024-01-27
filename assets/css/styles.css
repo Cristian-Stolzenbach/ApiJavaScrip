@@ -8,14 +8,19 @@ body {
     width: 80%;
     margin: 0 auto;
     background-color: rgb(82, 86, 89);
-    color: #000;
+    color: #ffffff;
     padding: 20px;
     border-radius: 10px;
 }
-
+ h1 {
+    text-align: center;
+ }
 .input-group {
     margin-bottom: 20px;
+    text-align: center;
 }
+
+
 
 #search {
     background-color: #0000ff;
@@ -23,6 +28,9 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more-options {
