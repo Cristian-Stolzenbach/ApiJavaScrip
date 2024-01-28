@@ -188,7 +188,7 @@ searchButton.addEventListener("click", () => {
       const bitcoins = await getBitcoin();
       const amountToConvert = inputValue.value;
       const conversion = bitcoins.serie[0].valor;
-      const conversionFinal = (amountToConvert / conversion).toFixed(8); // 8 decimales para Bitcoin
+      const conversionFinal = (amountToConvert / conversion / 1000).toFixed(8); // y multiplicar por 1000 ,8 decimales para Bitcoin
       conversionResult.innerHTML = `Resultado: ${conversionFinal} BTC`;
     }
 
