@@ -29,6 +29,10 @@ body {
 #clp {
     font-size: 14px;
 }
+
+#coinSelect {
+    padding: 3px 60px;
+}
 .monedaAconvertir {
     font-size: 14px;
 }
@@ -49,6 +53,12 @@ body {
     padding-top: 20px;
 }
 
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 #myChart {
     background-color: white;
     
