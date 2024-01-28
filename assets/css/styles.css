@@ -51,8 +51,5 @@ body {
 
 #myChart {
     background-color: white;
-    display: block;
-    box-sizing: border-box;
-    height: 289px;
-    width: 578px;
+    
 }
